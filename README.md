@@ -37,3 +37,6 @@ Production-quality React 18 + TypeScript e-commerce assignment built with Vite, 
 - Variant imagery is deterministically derived from the Fake Store image because the API does not supply real galleries.
 - Product data stays outside Redux to keep the store aligned with the assignment and avoid unnecessary global caching.
 - Deployment is intentionally left manual so you can review and ship the final version yourself.
+
+## App-link
+- https://commerce-dummy.vercel.app/
