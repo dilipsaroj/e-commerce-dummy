@@ -1,0 +1,20 @@
+.message {
+  display: grid;
+  gap: 0.75rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(24, 24, 27, 0.08);
+  border-radius: 1.5rem;
+  box-shadow: 0 16px 48px rgba(33, 58, 99, 0.08);
+  text-align: center;
+}
+
+.message h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.message p {
+  margin: 0;
+  color: var(--color-text-muted);
+}

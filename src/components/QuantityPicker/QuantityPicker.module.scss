@@ -1,0 +1,34 @@
+.picker {
+  display: inline-grid;
+  grid-template-columns: 2.75rem minmax(3rem, auto) 2.75rem;
+  align-items: center;
+  border: 1px solid rgba(24, 24, 27, 0.12);
+  border-radius: 999px;
+  background: white;
+  overflow: hidden;
+}
+
+.picker button,
+.picker span {
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.picker button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.picker button:disabled {
+  cursor: not-allowed;
+  opacity: 0.35;
+}
+
+.picker span {
+  padding: 0 0.8rem;
+  font-weight: 700;
+}

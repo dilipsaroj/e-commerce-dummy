@@ -1,0 +1,57 @@
+:root {
+  --color-text: #18181b;
+  --color-text-muted: #6d6d78;
+  --color-accent: #c86a4a;
+  --color-accent-strong: #9d4f35;
+  --color-surface: #fffdf9;
+  --shadow-soft: 0 18px 48px rgba(33, 58, 99, 0.08);
+  color: var(--color-text);
+  background: #fcfbf8;
+  font-family:
+    "Avenir Next",
+    "Segoe UI",
+    sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+select,
+input,
+textarea {
+  font: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
